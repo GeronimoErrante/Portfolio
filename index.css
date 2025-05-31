@@ -341,8 +341,8 @@ body {
   /* Projects Section */
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
   }
   
   .project-card {
@@ -372,8 +372,6 @@ body {
     object-fit: cover;
     transition: transform 0.5s ease;
   }
-
-  
   
   .project-card:hover .project-thumbnail {
     transform: scale(1.1);
@@ -419,7 +417,7 @@ body {
   }
   
   .project-info {
-    padding: 20px;
+    padding: 15px;
   }
   
   .project-info h3 {
